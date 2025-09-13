@@ -1,0 +1,28 @@
+# core
+pandas
+pydantic
+requests
+python-dotenv
+
+# geo & viz
+geopandas
+shapely
+folium
+plotly
+
+# rag stack
+sentence-transformers
+chromadb
+langchain
+
+# pdf (optional)
+pdfplumber
+
+# app
+streamlit
+
+# eval & utils
+scikit-learn
+numpy
+tqdm
+structlog
