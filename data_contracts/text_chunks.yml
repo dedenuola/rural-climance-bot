@@ -1,0 +1,10 @@
+name: text_chunks
+primary_key: [id]
+columns:
+id: {type: string, required: true}
+project_id: {type: string, required: true}
+text: {type: string, required: true}
+lang: {type: string, required: false}
+source_url: {type: string, required: false}
+created_at: {type: datetime, required: true}
+embedding: {type: array_float, required: false}

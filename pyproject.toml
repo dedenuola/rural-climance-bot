@@ -1,0 +1,11 @@
+[tool.black]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+# Adjust if needed; OK to leave as-is if unsure.
+target-version = "py311"
+
+[tool.ruff.lint]
+# Optional: enable import sorting via Ruff (replaces isort)
+extend-select = ["I"]

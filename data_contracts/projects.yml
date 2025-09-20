@@ -1,0 +1,19 @@
+name: projects
+primary_key: [id]
+columns:
+id: {type: string, required: true}
+title: {type: string, required: true}
+description: {type: string, required: false}
+country_iso3: {type: string, required: true}
+year: {type: int, required: false}
+funder: {type: string, required: false, allowed: [WorldBank, OECD, GCF, UNFCCC]}
+amount_commit: {type: float, required: false}
+amount_disbursed: {type: float, required: false}
+theme: {type: string, required: false, allowed: [adaptation, mitigation, unknown]}
+source_system: {type: string, required: true}
+source_url: {type: string, required: false}
+rural_tag_bool: {type: bool, required: true}
+rural_tag_reason: {type: string, required: false}
+lang: {type: string, required: false}
+ingested_at: {type: datetime, required: true}
+hash_sha256: {type: string, required: true}

@@ -1,0 +1,13 @@
+system: |
+You are a precise climate-finance assistant. Answer ONLY using the provided context. If evidence is insufficient, say "insufficient evidence".
+Always include citations as [n] with URLs.
+user_template: |
+Question: {{question}}
+Filters: {{filters}}
+Context:
+{{context}}
+parser_schema:
+answer_text: str
+citations: list[str]
+confidence: float
+filters_applied: dict

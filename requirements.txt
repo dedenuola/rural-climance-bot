@@ -1,28 +1,47 @@
-# core
+# Core
 pandas
-pydantic
+pydantic>=2.0
+pydantic-settings
 requests
 python-dotenv
+pyyaml
 
-# geo & viz
-geopandas
-shapely
-folium
-plotly
+# Validation
+pandera
 
-# rag stack
+# Storage / Formats
+pyarrow
+SQLAlchemy
+diskcache
+
+# RAG stack
 sentence-transformers
 chromadb
 langchain
+# (optional) langchain-community
+# (optional) langchain-text-splitters
+# (optional) faiss-cpu
 
-# pdf (optional)
-pdfplumber
-
-# app
+# App
 streamlit
 
-# eval & utils
+# Geo & Viz (enable when you hit Phase 3; Windows wheels can be heavy)
+# geopandas
+# shapely
+folium
+plotly
+
+# PDF (optional)
+pdfplumber
+
+# Eval & utils
 scikit-learn
 numpy
 tqdm
 structlog
+
+# Dev (Phase 1 conventions)
+# ruff
+# black
+# pre-commit
+# pytest
